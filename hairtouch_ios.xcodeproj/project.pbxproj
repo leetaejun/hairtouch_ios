@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F506BFB01CBBCFB40027E1C2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F506BFAF1CBBCFB40027E1C2 /* main.m */; };
+		F506BFB31CBBCFB40027E1C2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F506BFB21CBBCFB40027E1C2 /* AppDelegate.m */; };
+		F506BFB61CBBCFB40027E1C2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F506BFB51CBBCFB40027E1C2 /* ViewController.m */; };
+		F506BFB91CBBCFB40027E1C2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F506BFB71CBBCFB40027E1C2 /* Main.storyboard */; };
+		F506BFBB1CBBCFB40027E1C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F506BFBA1CBBCFB40027E1C2 /* Assets.xcassets */; };
+		F506BFBE1CBBCFB40027E1C2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F506BFBC1CBBCFB40027E1C2 /* LaunchScreen.storyboard */; };
+		F506BFC91CBBCFB40027E1C2 /* hairtouch_iosTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F506BFC81CBBCFB40027E1C2 /* hairtouch_iosTests.m */; };
+		F506BFD41CBBCFB40027E1C2 /* hairtouch_iosUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F506BFD31CBBCFB40027E1C2 /* hairtouch_iosUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F506BFC51CBBCFB40027E1C2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F506BFA31CBBCFB40027E1C2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F506BFAA1CBBCFB40027E1C2;
+			remoteInfo = hairtouch_ios;
+		};
+		F506BFD01CBBCFB40027E1C2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F506BFA31CBBCFB40027E1C2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F506BFAA1CBBCFB40027E1C2;
+			remoteInfo = hairtouch_ios;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F506BFAB1CBBCFB40027E1C2 /* hairtouch_ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hairtouch_ios.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F506BFAF1CBBCFB40027E1C2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F506BFB11CBBCFB40027E1C2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F506BFB21CBBCFB40027E1C2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F506BFB41CBBCFB40027E1C2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F506BFB51CBBCFB40027E1C2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F506BFB81CBBCFB40027E1C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F506BFBA1CBBCFB40027E1C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F506BFBD1CBBCFB40027E1C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F506BFBF1CBBCFB40027E1C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F506BFC41CBBCFB40027E1C2 /* hairtouch_iosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hairtouch_iosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F506BFC81CBBCFB40027E1C2 /* hairtouch_iosTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = hairtouch_iosTests.m; sourceTree = "<group>"; };
+		F506BFCA1CBBCFB40027E1C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F506BFCF1CBBCFB40027E1C2 /* hairtouch_iosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hairtouch_iosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F506BFD31CBBCFB40027E1C2 /* hairtouch_iosUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = hairtouch_iosUITests.m; sourceTree = "<group>"; };
+		F506BFD51CBBCFB40027E1C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F506BFA81CBBCFB40027E1C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F506BFC11CBBCFB40027E1C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F506BFCC1CBBCFB40027E1C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F506BFA21CBBCFB40027E1C2 = {
+			isa = PBXGroup;
+			children = (
+				F506BFAD1CBBCFB40027E1C2 /* hairtouch_ios */,
+				F506BFC71CBBCFB40027E1C2 /* hairtouch_iosTests */,
+				F506BFD21CBBCFB40027E1C2 /* hairtouch_iosUITests */,
+				F506BFAC1CBBCFB40027E1C2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F506BFAC1CBBCFB40027E1C2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F506BFAB1CBBCFB40027E1C2 /* hairtouch_ios.app */,
+				F506BFC41CBBCFB40027E1C2 /* hairtouch_iosTests.xctest */,
+				F506BFCF1CBBCFB40027E1C2 /* hairtouch_iosUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F506BFAD1CBBCFB40027E1C2 /* hairtouch_ios */ = {
+			isa = PBXGroup;
+			children = (
+				F506BFB11CBBCFB40027E1C2 /* AppDelegate.h */,
+				F506BFB21CBBCFB40027E1C2 /* AppDelegate.m */,
+				F506BFB41CBBCFB40027E1C2 /* ViewController.h */,
+				F506BFB51CBBCFB40027E1C2 /* ViewController.m */,
+				F506BFB71CBBCFB40027E1C2 /* Main.storyboard */,
+				F506BFBA1CBBCFB40027E1C2 /* Assets.xcassets */,
+				F506BFBC1CBBCFB40027E1C2 /* LaunchScreen.storyboard */,
+				F506BFBF1CBBCFB40027E1C2 /* Info.plist */,
+				F506BFAE1CBBCFB40027E1C2 /* Supporting Files */,
+			);
+			path = hairtouch_ios;
+			sourceTree = "<group>";
+		};
+		F506BFAE1CBBCFB40027E1C2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F506BFAF1CBBCFB40027E1C2 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F506BFC71CBBCFB40027E1C2 /* hairtouch_iosTests */ = {
+			isa = PBXGroup;
+			children = (
+				F506BFC81CBBCFB40027E1C2 /* hairtouch_iosTests.m */,
+				F506BFCA1CBBCFB40027E1C2 /* Info.plist */,
+			);
+			path = hairtouch_iosTests;
+			sourceTree = "<group>";
+		};
+		F506BFD21CBBCFB40027E1C2 /* hairtouch_iosUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F506BFD31CBBCFB40027E1C2 /* hairtouch_iosUITests.m */,
+				F506BFD51CBBCFB40027E1C2 /* Info.plist */,
+			);
+			path = hairtouch_iosUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F506BFAA1CBBCFB40027E1C2 /* hairtouch_ios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F506BFD81CBBCFB40027E1C2 /* Build configuration list for PBXNativeTarget "hairtouch_ios" */;
+			buildPhases = (
+				F506BFA71CBBCFB40027E1C2 /* Sources */,
+				F506BFA81CBBCFB40027E1C2 /* Frameworks */,
+				F506BFA91CBBCFB40027E1C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = hairtouch_ios;
+			productName = hairtouch_ios;
+			productReference = F506BFAB1CBBCFB40027E1C2 /* hairtouch_ios.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F506BFC31CBBCFB40027E1C2 /* hairtouch_iosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F506BFDB1CBBCFB40027E1C2 /* Build configuration list for PBXNativeTarget "hairtouch_iosTests" */;
+			buildPhases = (
+				F506BFC01CBBCFB40027E1C2 /* Sources */,
+				F506BFC11CBBCFB40027E1C2 /* Frameworks */,
+				F506BFC21CBBCFB40027E1C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F506BFC61CBBCFB40027E1C2 /* PBXTargetDependency */,
+			);
+			name = hairtouch_iosTests;
+			productName = hairtouch_iosTests;
+			productReference = F506BFC41CBBCFB40027E1C2 /* hairtouch_iosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F506BFCE1CBBCFB40027E1C2 /* hairtouch_iosUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F506BFDE1CBBCFB40027E1C2 /* Build configuration list for PBXNativeTarget "hairtouch_iosUITests" */;
+			buildPhases = (
+				F506BFCB1CBBCFB40027E1C2 /* Sources */,
+				F506BFCC1CBBCFB40027E1C2 /* Frameworks */,
+				F506BFCD1CBBCFB40027E1C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F506BFD11CBBCFB40027E1C2 /* PBXTargetDependency */,
+			);
+			name = hairtouch_iosUITests;
+			productName = hairtouch_iosUITests;
+			productReference = F506BFCF1CBBCFB40027E1C2 /* hairtouch_iosUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F506BFA31CBBCFB40027E1C2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "lee taejun";
+				TargetAttributes = {
+					F506BFAA1CBBCFB40027E1C2 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					F506BFC31CBBCFB40027E1C2 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = F506BFAA1CBBCFB40027E1C2;
+					};
+					F506BFCE1CBBCFB40027E1C2 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = F506BFAA1CBBCFB40027E1C2;
+					};
+				};
+			};
+			buildConfigurationList = F506BFA61CBBCFB40027E1C2 /* Build configuration list for PBXProject "hairtouch_ios" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F506BFA21CBBCFB40027E1C2;
+			productRefGroup = F506BFAC1CBBCFB40027E1C2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F506BFAA1CBBCFB40027E1C2 /* hairtouch_ios */,
+				F506BFC31CBBCFB40027E1C2 /* hairtouch_iosTests */,
+				F506BFCE1CBBCFB40027E1C2 /* hairtouch_iosUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F506BFA91CBBCFB40027E1C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F506BFBE1CBBCFB40027E1C2 /* LaunchScreen.storyboard in Resources */,
+				F506BFBB1CBBCFB40027E1C2 /* Assets.xcassets in Resources */,
+				F506BFB91CBBCFB40027E1C2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F506BFC21CBBCFB40027E1C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F506BFCD1CBBCFB40027E1C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F506BFA71CBBCFB40027E1C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F506BFB61CBBCFB40027E1C2 /* ViewController.m in Sources */,
+				F506BFB31CBBCFB40027E1C2 /* AppDelegate.m in Sources */,
+				F506BFB01CBBCFB40027E1C2 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F506BFC01CBBCFB40027E1C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F506BFC91CBBCFB40027E1C2 /* hairtouch_iosTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F506BFCB1CBBCFB40027E1C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F506BFD41CBBCFB40027E1C2 /* hairtouch_iosUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F506BFC61CBBCFB40027E1C2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F506BFAA1CBBCFB40027E1C2 /* hairtouch_ios */;
+			targetProxy = F506BFC51CBBCFB40027E1C2 /* PBXContainerItemProxy */;
+		};
+		F506BFD11CBBCFB40027E1C2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F506BFAA1CBBCFB40027E1C2 /* hairtouch_ios */;
+			targetProxy = F506BFD01CBBCFB40027E1C2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F506BFB71CBBCFB40027E1C2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F506BFB81CBBCFB40027E1C2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F506BFBC1CBBCFB40027E1C2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F506BFBD1CBBCFB40027E1C2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F506BFD61CBBCFB40027E1C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F506BFD71CBBCFB40027E1C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F506BFD91CBBCFB40027E1C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = hairtouch_ios/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "kr.co.hairtouch.hairtouch-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F506BFDA1CBBCFB40027E1C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = hairtouch_ios/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "kr.co.hairtouch.hairtouch-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F506BFDC1CBBCFB40027E1C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = hairtouch_iosTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "kr.co.hairtouch.hairtouch-iosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hairtouch_ios.app/hairtouch_ios";
+			};
+			name = Debug;
+		};
+		F506BFDD1CBBCFB40027E1C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = hairtouch_iosTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "kr.co.hairtouch.hairtouch-iosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hairtouch_ios.app/hairtouch_ios";
+			};
+			name = Release;
+		};
+		F506BFDF1CBBCFB40027E1C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = hairtouch_iosUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "kr.co.hairtouch.hairtouch-iosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = hairtouch_ios;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		F506BFE01CBBCFB40027E1C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = hairtouch_iosUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "kr.co.hairtouch.hairtouch-iosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = hairtouch_ios;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F506BFA61CBBCFB40027E1C2 /* Build configuration list for PBXProject "hairtouch_ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F506BFD61CBBCFB40027E1C2 /* Debug */,
+				F506BFD71CBBCFB40027E1C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F506BFD81CBBCFB40027E1C2 /* Build configuration list for PBXNativeTarget "hairtouch_ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F506BFD91CBBCFB40027E1C2 /* Debug */,
+				F506BFDA1CBBCFB40027E1C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F506BFDB1CBBCFB40027E1C2 /* Build configuration list for PBXNativeTarget "hairtouch_iosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F506BFDC1CBBCFB40027E1C2 /* Debug */,
+				F506BFDD1CBBCFB40027E1C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F506BFDE1CBBCFB40027E1C2 /* Build configuration list for PBXNativeTarget "hairtouch_iosUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F506BFDF1CBBCFB40027E1C2 /* Debug */,
+				F506BFE01CBBCFB40027E1C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F506BFA31CBBCFB40027E1C2 /* Project object */;
+}
